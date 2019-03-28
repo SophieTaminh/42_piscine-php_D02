@@ -112,13 +112,13 @@ date_default_timezone_set('Europe/Paris');
 $mktime=mktime($time[0],$time[1],$time[2],$mois,$journb,$annee);
 
 //verification du jour
-$codejourok=date("N",$mktime);
+/*$codejourok=date("N",$mktime);
 
 if($jour != $codejourok)
 {
 	echo "Wrong Format"."\n";
 	Exit;
-}
+}*/
 
 echo "$mktime"."\n";
 
